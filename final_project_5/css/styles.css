@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+header {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+h1 {
+    margin: .2em .5em;
+    display: inline-block;
+    font-weight: 700;
+}
+header p {
+    display: inline-block;
+    font-size: .9em;
+    margin: .2em .5em;
+}
+#backgroundImage {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0px;
+}
+#backgroundImage img {
+    width: 100%;
+    height:auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#arrowPrev, #arrowNext {
+    color: #fff;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    top: 50%;
+    z-index: 4;
+    font-size: 2em;
+    margin-top: -1.2em;
+    opacity: .3;
+    webkit-user-select: none;
+}
+#arrowNext {
+    right: 0px;
+    padding: 10px 5px 15px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#arrowPrev {
+    left: 0px;
+    padding: 10px 10px 15px 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#description {
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    background: rgba(0,0,0,.5);
+    padding: 1vw;
+    color: white;
+    width: 25%;
+    font-size: 12px;
+}
